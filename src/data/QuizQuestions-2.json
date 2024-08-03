@@ -1,0 +1,31 @@
+[
+  {
+    "question": "One of the essential minerals in the human body is salt. How much salt (NaCl) is in the average adult human body?",
+    "options": ["1 Kilogram", "500 grams", "250 grams", "Practically none!"],
+    "answer": ["250 grams"],
+    "type": "OneChoice"
+  },
+  {
+    "question": "Who is credited with the invention of the modern periodic table?",
+    "options": ["Nobel", "Mendeleev", "Mendel", "Lavoisier"],
+    "answer": ["Mendeleev"],
+    "type": "OneChoice"
+  },
+  {
+    "question": "Which of these elements is a nonmetal?",
+    "options": ["Sulfur", "Manganese", "Hydrogen", "Beryllium"],
+    "answer": ["Sulfur", "Hydrogen"],
+    "type": "MultipleChoice"
+  },
+  {
+    "question": "Which of these compounds have double bonds?",
+    "options": ["R-H", "R-OH", "R-COH", "R-C=OR"],
+    "answer": ["R-COH", "R-C=OR"],
+    "type": "MultipleChoice"
+  },
+  {
+    "question": "You can't live without water! What is its chemical formula?",
+    "answer": ["H2O"],
+    "type": "InputQuestion"
+  }
+]

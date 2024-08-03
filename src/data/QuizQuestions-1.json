@@ -1,0 +1,31 @@
+[
+  {
+    "question": "A flashing red traffic light signifies that a driver should do what?",
+    "options": ["Stop", "Speed up", "Proceed with caution", "Honk the horn"],
+    "answer": ["Stop"],
+    "type": "OneChoice"
+  },
+  {
+    "question": "A knish is traditionally stuffed with what filling?",
+    "options": ["Potato", "Creamed corn", "Lemon custard", "Raspberry jelly"],
+    "answer": ["Potato"],
+    "type": "OneChoice"
+  },
+  {
+    "question": "What are the colors of traffic lights?",
+    "options": ["Red", "Green", "Blue", "Yellow"],
+    "answer": ["Red", "Yellow", "Green"],
+    "type": "MultipleChoice"
+  },
+  {
+    "question": "Which of these options are not fruits?",
+    "options": ["Pear", "Carrot", "Garlic", "Tomato"],
+    "answer": ["Carrot", "Garlic"],
+    "type": "MultipleChoice"
+  },
+  {
+    "question": "The result of 2+2*2 is:",
+    "answer": ["6"],
+    "type": "InputQuestion"
+  }
+]
