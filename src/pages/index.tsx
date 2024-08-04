@@ -64,7 +64,8 @@ export default function Home() {
     <main
       className={`
         ${styles.main} 
-        ${inter.className} 
+        ${inter.className}
+
         ${
           quizType === null
             ? styles.borderColorToPattern
@@ -72,6 +73,7 @@ export default function Home() {
             ? styles.borderColorToOrange
             : styles.borderColorToGreen
         }
+        ${quizType === null && styles.homepageMoveBackground}
         `}
     >
       <div className={`${quizType === null && styles.fadeInLeft}`}>
