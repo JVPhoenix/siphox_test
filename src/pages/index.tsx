@@ -61,8 +61,20 @@ export default function Home() {
   };
 
   return (
-    <div className={`${styles.pageWrapper} ${inter.className}`}>
-      <main className={`${styles.main} ${quizType === null && styles.fadeInLeft}`}>
+    <main
+      className={`
+        ${styles.main} 
+        ${inter.className} 
+        ${
+          quizType === null
+            ? styles.borderColorToPattern
+            : quizType === QuizTypeSelector.Random
+            ? styles.borderColorToOrange
+            : styles.borderColorToGreen
+        }
+        `}
+    >
+      <div className={`${quizType === null && styles.fadeInLeft}`}>
         <Head>
           <title>SiPhox Task</title>
           <link rel="icon" href="/favicon.ico" />
@@ -134,7 +146,7 @@ export default function Home() {
             </Button>
           </div>
         )}
-      </main>
-    </div>
+      </div>
+    </main>
   );
 }
