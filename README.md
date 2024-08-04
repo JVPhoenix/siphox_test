@@ -1,6 +1,8 @@
 ## Getting Started
 
-First, if "node_modules" folder is not already installed, run the following commands on your Terminal:
+First, you'll need Node.js installed in your PC to run the project locally. If you already have, ignore this and go to 2º step.
+
+Second, you'll need to install modules. Run the following commands on your Terminal:
 
 ```bash
 npm install
@@ -8,7 +10,7 @@ npm install
 yarn install
 ```
 
-Next, run the development server:
+Third, run the development server:
 
 ```bash
 npm run dev
